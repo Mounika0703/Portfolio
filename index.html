@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my_website</title>
+    <link rel="stylesheet" href="index_styles.css">
+    <link rel="stylesheet" href="color-1.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" class="alternate-style" title="color-1" href="color-1.css">
+    <link rel="stylesheet" class="alternate-style" title="color-2" href="color-2.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="color-3" href="color-3.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="color-4" href="color-4.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="color-5" href="color-5.css" disabled>
+    <link rel="stylesheet" href="style-switcher.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--preloader start-->
+    <div class="preloader">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!--preloader end-->
+    <!--header start-->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar" justify-content-between>
+                <div class="brand">
+                    <a href="#">Mounika Killana</a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#home" class="btn1" data-after="Home"><i class="fa fa-home"></i></a></li>
+                        <li><a href="#about" class="btn1" data-after="About"><i class="fa fa-user-circle-o"></i></a>
+                        </li>
+                        <li><a href="#projects" class="btn1" data-after="Projects"><i class="fa fa-cogs"></i></a></li>
+                        <li><a href="#contact" class="btn1" data-after="Contact"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="cv.pdf" class="btn1" target="_blank" data-after="Resume"><i
+                                    class="fa fa-file-text"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--header end-->
+    <!--home start-->
+    <section class="home-section section" id="home">
+        <!--effect wrap start-->
+        <div class="effect-wrap">
+            <div class="effect effect-1"></div>
+            <div class="effect effect-2">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="effect effect-3"></div>
+            <div class="effect effect-4"></div>
+            <div class="effect effect-5">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!--effect wrap end-->
+        <div class="container">
+            <div class="row full-screen align-items-center">
+                <div class="home-text">
+                    <p>hello</p>
+                    <h2>I'm Mounika</h2>
+                    <h1>Undergraduate</h1>
+                    <a href="cv.pdf" target="_blank" class="btn1">Download CV</a>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <img src="mouni.jpg" alt="profile pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--home end-->
+    <!--style switcher start-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fa fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fa"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--style switcher end-->
+    <!--about section start-->
+    <section class="about-section section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="main info">About me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box">
+                        <img src="mouni.jpg" alt="profile pic">
+                    </div>
+                </div>
+                <div class="about-info">
+                    <p><span>
+                            <br><br>Hi !!! I am Mounika.<br>March 07th,2004<br>Andhra Pradesh, India<br> </span>
+                        I'm currently
+                        pursuing my Bachelor's degree in Electronics and Communication Engineering at National
+                        Institute of Technology, Delhi.I am highly motivated. I am passionate about problem-solving.
+                        I possess a good background in C and C++. I'm a passionate and creative web developer. I
+                        am also interested in playing Volley ball.
+                    </p>
+                    <div class="social-links ">
+                        <a href="https://github.com/Mounika0703" target="_blank" class="btn1"><i
+                                class="fa fa-github"></i></a>
+                        <a href="https://www.instagram.com/camo_0703/?hl=en" target="_blank" class="btn1"><i
+                                class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mounika-killana-487b9924b" target="_blank" class="btn1"><i
+                                class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--about tabs start-->
+            <div class="row">
+                <div class="about-tabs">
+                    <span class="tab-item active" data-target=".skills">skills</span>
+                    <span class="tab-item" data-target=".education">education</span>
+                    <span class="tab-item" data-target=".favourites">favourites</span>
+                </div>
+            </div>
+            <!--about tabs end-->
+            <!--skills start-->
+            <div class="row">
+                <div class="skills tab-content active">
+                    <div class="row">
+                        <div class="skill-item">
+                            <p>Html</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: calc(75% - 14px)">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>C++</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: calc(70% - 14px)">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>CSS</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: calc(70% - 14px)">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>JavaScript</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: calc(50% - 14px)">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>DSA</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: calc(50% - 14px)">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--skills end-->
+                <!--education start-->
+                <div class="row">
+                    <div class="education tab-content">
+                        <div class="row">
+                            <div class="timeline">
+                                <div class="row">
+                                    <div class="timeline-item">
+                                        <div class="timeline-item-inner">
+                                            <i class="fa fa-graduation-cap icon"></i>
+                                            <span>2021-present</span>
+                                            <h3>National Institute of Technology, Delhi</h3>
+                                            <h4>Bachelor of Technology</h4>
+                                            <p>CGPA:7.75<br>Electronics and Communication Engineering</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-item-inner">
+                                            <i class="fa fa-graduation-cap icon"></i>
+                                            <span>2019-2021</span>
+                                            <h3>Sri Chaitanya College</h3>
+                                            <h4>shivam campus, Visakhapatnam</h4>
+                                            <p>PERCENTAGE: 96.8%<br>Intermediate,MPC</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-item-inner">
+                                            <i class="fa fa-graduation-cap icon"></i>
+                                            <span>____-2019</span>
+                                            <h3>Sri Chaitanya school</h3>
+                                            <h4>Srikakulam, Andhra Pradesh</h4>
+                                            <p>CGPA:10<br>Schooling</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--education end-->
+                <!--favourites start-->
+                <div class="row">
+                    <div class="favourites tab-content">
+                        <div class="row">
+                            <div class="timeline">
+                                <div class="row">
+                                    <div class="timeline-item">
+                                        <div class="timeline-item-inner">
+                                            <i class="fa fa-heart-o icon"></i>
+                                            <span>SPORTS</span>
+                                            <h3>volleyball</h3>
+
+                                            <p>It is a team sport in which two teams of six players are separated by a
+                                                net.Each team
+                                                tries to score points by grounding a ball on the other team's court
+                                                under organized
+                                                rules.</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-item-inner">
+                                            <i class="fa fa-heart-o icon"></i>
+                                            <span>TRAVEL</span>
+                                            <h3>Around the World</h3>
+
+                                            <p>Traveling is a unique experience.Travel inspires us to see, taste and try
+                                                new things.We
+                                                explore new places, cultures, cuisines, traditions and ways of living.It
+                                                helps us to
+                                                adapt and explore to new surroundings..</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-item-inner">
+                                            <i class="fa fa-heart-o icon"></i>
+                                            <span>FOOD</span>
+                                            <h3>South Indian Cuisine</h3>
+
+                                            <p>South India is known for its spicy, mouth watering and tangy dishes-From
+                                                crispy to soft,
+                                                from fried to steamed and rice dishes.There are many options for one to
+                                                choose from when
+                                                it comes to having a South Indian meal.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--favourites end-->
+            </div>
+        </div>
+    </section>
+    <section class="projects-section section" id="projects">
+        <div class="section-spacer"></div>
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="PROJECTS">Recent works</h2>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="my-portfolio.jpg" alt="Portfolio Item Thumb">
+                    </div>
+                    <h3 class="portfolio-item-tittle">Portfolio Website</h3>
+                    <a href="https://mounika0703.github.io/Portfolio/" type="_blank" target="_blank"
+                        class="btn1">View Project</a>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Developed my Portfolio Website using front-end development.This is created with
+                                animations, theme colours, light and dark backgrounds and completely responsive.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Technologies Used - HTML, CSS and JavaScript</li>
+                                <li>Role - Frontend</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="mass-mail-dispatcher.jpeg" alt="Portfolio Item Thumb">
+                    </div>
+                    <h3 class="portfolio-item-tittle">Mass-Mail Dispatcher</h3>
+                    <a href="https://mounika0703.github.io/Mass-Mail-Dispatcher/" type="_blank" target="_blank"
+                        class="btn1">View Project</a>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>It provide a tool to control and send emails to a vast number
+                                of recipients uploaded through a CSV file. The application will list and sort out
+                                all the
+                                valid and invalid emails.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Technologies Used - HTML, CSS and JavaScript</li>
+                                <li>Role - Frontend</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about section end-->
+    <!--contact section start-->
+    <section class="contact-section section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="contact">Get In Touch</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <a href="tel:8309840735"><i class="fa fa-phone"></i></a>
+                        <span>Phone</span>
+                        <p>9398638939</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <a href="mailto:mounikakillana0703@gmail.com"><i class="fa fa-envelope"></i></a>
+                        <span>Email</span>
+                        <p>mounikakillana0703@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <a
+                            href="https://www.google.co.in/maps/place/Dallavalasa,+Andhra+Pradesh+532402/@18.3354142,83.8068903,14z/data=!3m1!4b1!4m5!3m4!1s0x3a3c6cc9bc2c52bf:0xef4e6b379ee56409!8m2!3d18.3368333!4d83.8287404"><i
+                                class="fa fa-map-marker"></i></a>
+                        <span>Address</span>
+                        <p>Srikakulam, Andhra Pradesh - 532402</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form name="submit-to-google-sheet">
+                        <div class="row">
+                            <div class="w-50">
+                                <div class="input-group">
+                                    <input type="text" name="Name" placeholder="Name" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" name="Email" placeholder="Email" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" name="Subject" placeholder="Subject" class="input-control" required>
+                                </div>
+                            </div>
+                            <div class="w-50">
+                                <div class="input-group">
+                                    <textarea class="input-control" placeholder="Message" name="Message" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="submit-btn">
+                                <button type="submit" class="btn1">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section end-->
+    <!--footer start-->
+    <footer>
+        <a href="https://github.com/Mounika0703" class="btn1"><i class="fa fa-github"></i></a>
+        <a href="https://www.instagram.com/camo_0703/?hl=e" class="btn1" target="_blank"><i
+                class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/mounika-killana-487b9924b" class="btn1" target="_blank"><i
+                class="fa fa-linkedin"></i></a>
+        <p>Created by Mounika Killana <i class="fa fa-copyright"></i> 2023 All rights reserved</p>
+    </footer>
+    <!--footer end-->
+    <script src="index.js"></script>
+    <script src="style-switcher.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyensitiaUEBVCYMCEYNadM2Hc99sJSTlb_AvE_q4C4AooZTYFZDYbKUfzrZApmycLaSA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully  !!!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
