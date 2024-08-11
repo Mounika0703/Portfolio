@@ -29,16 +29,40 @@ function setActiveStyle(color){
 
 /*------------------theme light and dark mode-----------------*/
 const dayNight = document.querySelector(".day-night");
-dayNight.addEventListener("click", () =>{
-    dayNight.querySelector("i").classList.toggle("fa-sun-o");
-    dayNight.querySelector("i").classList.toggle("fa-moon-o");
-    document.body.classList.toggle("dark");
-})
-window.addEventListener("load", () =>{
-    if(document.body.classList.contains("dark")){
-        dayNight.querySelector("i").classList.add("fa-sun-o");
+
+// Function to apply dark mode
+function applyDarkMode() {
+    document.body.classList.add("dark");
+    dayNight.querySelector("i").classList.remove("fa-moon-o");
+    dayNight.querySelector("i").classList.add("fa-sun-o");
+}
+
+// Function to apply light mode
+function applyLightMode() {
+    document.body.classList.remove("dark");
+    dayNight.querySelector("i").classList.remove("fa-sun-o");
+    dayNight.querySelector("i").classList.add("fa-moon-o");
+}
+
+// Toggle dark/light mode
+dayNight.addEventListener("click", () => {
+    if (document.body.classList.contains("dark")) {
+        applyLightMode();
+    } else {
+        applyDarkMode();
     }
-    else{
-        dayNight.querySelector("i").classList.add("fa-moon-o")
+});
+
+// Set default mode
+window.addEventListener("load", () => {
+    if (document.body.classList.contains("dark")) {
+        applyDarkMode();
+    } else {
+        applyLightMode();
     }
-})
+});
+
+// Initial setup for dark mode as default
+document.addEventListener("DOMContentLoaded", () => {
+    applyDarkMode();
+});
